@@ -68,7 +68,8 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &APlayerCharacter::AimButtonPressed);
 	PlayerInputComponent->BindAction("Aim", IE_Released, this, &APlayerCharacter::AimButtonReleased);
 
-	//TODO: to add sprinting?
+	// TODO: to add sprinting?
+	// Test: Build to editor change
 }
 
 void APlayerCharacter::PostInitializeComponents()
